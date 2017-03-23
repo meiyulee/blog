@@ -5,7 +5,7 @@ description: "數字與經濟的對話"
 logo_location: "https://placeholdit.imgix.net/~text?txtsize=30&bg=F8F8F8&txtclr=002E62&txt=LOGO&w=100&h=100"
 
 #baseurl: "/blog/" # the subpath of your site, e.g. /blog/
-#url: "http://meiyulee.github.io" # the base hostname & protocol for your site
+#url: "http://meiyulee.github.io/blog" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
