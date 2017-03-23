@@ -1,8 +1,8 @@
 title: Book
 description: 數字與經濟的對話
 url: http://meiyulee.github.io/blog # site url
-avatar: assets/img/avatar.jpg # path/to/avatar for index page. e.g. /assets/img/avatar.jpg
-favicon: /assets/img/favicon.ico # path/to/favicon for site. e.g. /assets/img/favicon.ico
+avatar: http://meiyulee.github.io/blog/assets/img/avatar.jpg # path/to/avatar for index page. e.g. /assets/img/avatar.jpg
+favicon: http://meiyulee.github.io/blog/assets/img/favicon.ico # path/to/favicon for site. e.g. /assets/img/favicon.ico
 google_analytics: # google analytics id
 disqus_shortname: # disqus_shortname for disqus comment system
 
