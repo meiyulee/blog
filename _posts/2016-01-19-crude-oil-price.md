@@ -2,7 +2,7 @@
 layout: post
 tags: curvilinear regression probability_distribution 機率分配 crude_oil 95汽油 油價 強大數法則
 date: 2017-03-26 19:18
-thumbnail: http://placehold.it/100x100
+thumbnail: https://sc01.alicdn.com/kf/HTB1j7TIKXXXXXaoXVXXq6xXFXXXF/CRUDE-OIL.jpg
 title: 台灣95汽油大數據分析
 published: true
 ---
