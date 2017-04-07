@@ -2,7 +2,7 @@
 layout: post
 tags: big_data 大數據 巨量資料 大資料庫 open_data
 date: 2016-03-14 19:18
-thumbnail: http://placehold.it/100x100
+thumbnail: http://govtwit.wpengine.netdna-cdn.com/wp-content/uploads/2012/05/data_img.jpg
 title: 開放性資料的估計
 published: true
 ---
