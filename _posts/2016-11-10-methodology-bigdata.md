@@ -2,7 +2,7 @@
 layout: post
 tags: big_data 大數據 巨量資料 大資料庫 
 date: 2016-10-11 19:18
-thumbnail: http://placehold.it/100x100
+thumbnail: http://www.scriptmag.com/wp-content/uploads/blackboard-300x171.jpg
 title: 大數據分析方法論(1)
 published: true
 ---
