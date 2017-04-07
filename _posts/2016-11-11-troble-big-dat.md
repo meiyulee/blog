@@ -2,7 +2,7 @@
 layout: post
 tags: big_data data_mining 巨量資料 統計 機率 資料探勘 
 date: 2016-11-11 13:08
-thumbnail: http://placehold.it/100x100
+thumbnail: http://img.deusm.com/informationweek/2016/04/1325032/women-in-big-data-iStock_000070960331_Medium.jpg
 title: 大數據 (big data) 分析的困境
 published: true
 ---
