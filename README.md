@@ -1,42 +1,20 @@
-# Paper for Jekyll
-A new material design utilising theme for your Jekyll blog. Built on [Material Design Lite](http://www.getmdl.io/).
+# README #
 
-![screenshot](assets/screenshots/mockup.jpg)
+A simple blog template for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.
 
-## Demo
- [dbtek.github.io/paper-demo](http://dbtek.github.io/paper-demo)
+Uses:
+* Twitter Bootstrap 3.2.0
+* Font Awesome 4.2.0
 
-### Batteries Included
-There are many cool features bundled with Paper such as:
 
-- Full Github Pages support.
-- Responsive layout.
-- Dynamic search with [jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search/).
-- Customizable theme colors.
-- Sass variables.
-- RSS feed.
-- Post tags and categories.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
+Here is a <a href="http://itsrifat.github.io/rifyll/" target="_blank">Demo</a>
 
-### Tech
-Under the hood Paper contains:  
-- Material Design Lite.
-- CoffeeScript.
-- Sass.
+To get started:
+* Fork this repo
+* Edit [_config.yml](_config.yml):
+  * Change logo_location
+* Edit [_data/menu.yml](_data/menu.yml) to edit menu
+* Edit [_data/personal.yml](_data/personal.yml) to edit persnoal info to show in about me page.
 
-### Install
-Easiest way of getting Paper work is forking.
-
-- Fork the [repo](https://github.com/dbtek/paper).
-- Rename forked repo as `username.github.io`.
-- Set up blog by editing `_config.yml`.
-- Enjoy.
-
-### Author
-Ismail Demirbilek
-[@dbtek](https://twitter.com/dbtek)
-
-### License
-[MIT](http://opensource.org/licenses/MIT)
+To create a post:
+* Create a **.md** or **.markdown** file in the _post directory. Add a thumbnail image for the post in the yml front matter, its shown as the post thumbnail in the homepage
