@@ -1,44 +1,42 @@
-![favicon](https://raw.github.com/iamnii/wangana/master/favicon.png) Wangana - Jekyll Theme
-==============
+# Paper for Jekyll
+A new material design utilising theme for your Jekyll blog. Built on [Material Design Lite](http://www.getmdl.io/).
 
-Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [iamnii](https://twitter.com/_iamnii).
+![screenshot](assets/screenshots/mockup.jpg)
 
-* Demo [here](http://iamnii.github.io/wangana/)
+## Demo
+ [dbtek.github.io/paper-demo](http://dbtek.github.io/paper-demo)
 
-## Screenshot
-![screenshot](https://raw.github.com/iamnii/wangana/master/assets/images/wangana.png)
+### Batteries Included
+There are many cool features bundled with Paper such as:
 
-## Contributing
-1. Fork the theme ( https://github.com/iamnii/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+- Full Github Pages support.
+- Responsive layout.
+- Dynamic search with [jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search/).
+- Customizable theme colors.
+- Sass variables.
+- RSS feed.
+- Post tags and categories.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
 
-## Issues
-[Open](https://github.com/iamnii/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
+### Tech
+Under the hood Paper contains:  
+- Material Design Lite.
+- CoffeeScript.
+- Sass.
 
-## Installation & Usage
-1 > [Download](https://github.com/iamnii/wangana/archive/master.zip) package
+### Install
+Easiest way of getting Paper work is forking.
 
-2 > Fill in the details of the configuration file (/_config.yml) by uncommenting the differents and edit to taste
-Edit: _config.yml (general options), main.css (theme colors & fonts)
-``` bat
-wangana/
-├── _config.yml
-├── _assets/
-    ├── _scss/
-        ├── main.scss
-```
+- Fork the [repo](https://github.com/dbtek/paper).
+- Rename forked repo as `username.github.io`.
+- Set up blog by editing `_config.yml`.
+- Enjoy.
 
-3 > Run locally with the following commands while in the root directory and view in a browser at localhost:4000
-``` bat
-$ jekyll build
-# Compile and build site files
+### Author
+Ismail Demirbilek
+[@dbtek](https://twitter.com/dbtek)
 
-$ jekyll serve --watch
-# Serve site locally
-```
-
-## Copyright & License
-The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
+### License
+[MIT](http://opensource.org/licenses/MIT)

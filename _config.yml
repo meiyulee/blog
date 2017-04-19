@@ -1,23 +1,38 @@
-name: Ｍei-Yu Lee
-description:  數字與經濟的對話
+# Site settings
+title: 數字與經濟的對話
+description: > # this means to ignore newlines until "baseurl:"
+  從數字看到經濟的如何發生改變.
+baseurl: "https://meiyulee.github.io/blog" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
 
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+# Build settings
+markdown: kramdown
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
+highlighter: pygments
+gems: [jekyll-paginate, jekyll-coffeescript]
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+# comments
+disqus: # add disqus shortname here
 
-url: https://meiyulee.github.io/blog
-permalink: /:year/:month/:title/
-owner:
-    name: #
-    twitter: #
-    github: #
-    disqus_shortname: #
+# author info
+# add your appropriate info here
+author: Mei-Yu Lee# your name
+bio:    # your bio
+email:
+email_md5: # md5 hash of your email
+twitter_username:
+github_username:
 
-ga_id: #
-ga_username: #
-
-timezone: Taiwan/Taipei
+# Theming options
+# These settings are mandatory.
+theme:              'blue-pink'
+# drawer theming
+drawer:
+  text_color:       'grey-600'
+  header_color:     'blue-500'
+  navigation_color: 'grey-200'
+# footer theming
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'
