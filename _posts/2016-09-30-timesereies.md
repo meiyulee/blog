@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 時間序列
-date: 2017-03-26 19:18
+date: 2016-09-30 19:18
 thumbnail: http://cdn1.thedataschool.co.uk/wp-content/uploads/2016/02/20161846/timeseries.png
 title: 時間序列模型分析 - 是否需要定態
 published: true
