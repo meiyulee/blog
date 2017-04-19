@@ -1,23 +1,23 @@
-# Site settings
-title: Mei-Yu Lee
-email: mylee@gm.ypu.edu.tw
-description: "數字與經濟的對話"
-logo_location: "https://placeholdit.imgix.net/~text?txtsize=30&bg=F8F8F8&txtclr=002E62&txt=LOGO&w=100&h=100"
+name: Ｍei-Yu Lee
+description:  數字與經濟的對話
 
-#baseurl: "/blog/" # the subpath of your site, e.g. /blog/
-#url: "http://meiyulee.github.io/blog" # the base hostname & protocol for your site
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
 
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-highlighter: rouge
+url: https://meiyulee.github.io/blog
+permalink: /:year/:month/:title/
+owner:
+    name: #
+    twitter: #
+    github: #
+    disqus_shortname: #
 
-#Other Global Configuration
-exclude: ['README.md']
+ga_id: #
+ga_username: #
 
-excerpt_separator: <!--more-->
-
-#show the jumbotron header on index page
-show_blog_header: true
+timezone: Taiwan/Taipei

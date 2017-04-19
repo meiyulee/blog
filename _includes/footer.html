@@ -1,15 +1,11 @@
-
-
-<footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-offset-3 col-lg-6">
-            <div class="row">
-              <div class="col-xs-12 text-center">
-                <small>&copy; rifyll theme, 2014</small>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+        <!-- Other JavaScripts -->
+        <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.url }}"></script>        
+        <script src="{{ "/assets/js/jquery.timeago.js" | prepend: site.url }}"></script>
+        <script>
+          {% include scripts/google-analytics.html %}
+          {% include scripts/page-effects.html %}
+          {% include scripts/sidebar.html %}
+          {% include scripts/timeago.html %}
+        </script>
+    </body>
+</html>

@@ -1,44 +1,44 @@
 ---
 layout: default
-date: 2014-10-19 23:51
 ---
-
-{% if site.show_blog_header %}
-  {% include blog_header.html %}
-{% endif %}
-
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-      {% for post in site.posts %}
-        <div class="blog-short">
-          <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
-  		<div>
-  		  <small>
-  			<i class="fa fa-calendar"></i>
-  			<time>
-          {{ post.date | date:'%A, %B %d, %Y'}}
-  			</time>
-  		  </small>
-           </div>
-  		    <div class="margin10">
-            <small>
-              <i class="fa fa-tag"></i>
-              {% for tag in post.tags %}
-                <span class="label label-tag">{{tag}}</span>
-              {% endfor %}
-            </small>
-          </div>
-          {% if post.thumbnail %}
-            <div class="imgcontainer col-xs-12 col-sm-4 col-md-3 col-lg-3">
-              <img src="{{post.thumbnail}}"
-              alt="{{post.title}}"  class="pull-left img-responsive thumb img-thumbnail" />
+<div class="col-sm-12">
+    <div class="page">
+        {% for post in site.posts %}
+            {% if post.archive == false %}
+            <div class="page-item">
+                <div class="col-sm-8">
+                    <ul class="page-item-title">
+                        <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
+                        <a class="meta pull-right comments-meta" href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                        <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 hide-on-phone">
+                    <ul class="page-item-title pull-right meta">
+                        <li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
+                        <li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
+                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 page-item-body">
+                    {{post.excerpt}}
+                </div>
             </div>
-          {% endif %}
-          <article class="excerpt">{{post.excerpt}}</article>
-          <a class="pull-right marginBottom10" href="{{post.url | prepend: site.baseurl }}">Read More</a>
-        </div>
-      {% endfor %}
+            {% endif %}
+        {% endfor %}
     </div>
-  </div>
 </div>
+<script>
+$(document).ready(function() {
+    $(".page").children().first().find(".page-item-body").css( "display", "block" );
+    $(".page").children().first().find(".pib-indicator")
+        .find("i").toggleClass("fa-compress").toggleClass("fa-expand");
+
+    $(".page-item .pib-indicator").click(function() {
+        var preview = $(this);
+        preview.find("i").toggleClass("fa-expand").toggleClass("fa-compress");
+        $(this).closest(".page-item").find(".page-item-body").toggle("slow", function() {});
+    });
+});
+</script>
