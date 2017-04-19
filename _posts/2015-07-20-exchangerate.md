@@ -1,3 +1,12 @@
+---
+layout: post
+tags: curvilinear regression probability_distribution 機率分配 匯率 exchange_rates 強大數法則
+date: 2015-07-20 19:18
+thumbnail: http://images.wisegeek.com/currency-exchange-rate-board.jpg
+title: 從巨量資料分析方法找台日韓兌美元匯率機率密度函數
+published: true
+---
+
 <div style="text-align: justify;">
 話說台灣是以出口為導向的國家，新台幣匯率的穩定與否與國際情勢深深地影響台灣出口狀況。所以在匯率相關文獻上，例如，王泓仁(<a href="http://www.cbc.gov.tw/public/Attachment/831211391271.pdf" target="_blank">2005</a>)使用結構式自我迴歸模型探討央行持有國外資產淨額變動率、銀行隔夜拆款利率、M2變動率、自然對數下之CPI、自然對數下之工業生產指數、新台幣兌美元匯率、外貿比例、貿易條件為內生變數進行匯率與其他變數關係討論，另外使用GARCH討論新台幣匯率成長率之波動。<br />
 <br />
