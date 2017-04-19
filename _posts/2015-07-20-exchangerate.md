@@ -10,6 +10,9 @@ published: true
 <div style="text-align: justify;">
 話說台灣是以出口為導向的國家，新台幣匯率的穩定與否與國際情勢深深地影響台灣出口狀況。所以在匯率相關文獻上，例如，王泓仁(<a href="http://www.cbc.gov.tw/public/Attachment/831211391271.pdf" target="_blank">2005</a>)使用結構式自我迴歸模型探討央行持有國外資產淨額變動率、銀行隔夜拆款利率、M2變動率、自然對數下之CPI、自然對數下之工業生產指數、新台幣兌美元匯率、外貿比例、貿易條件為內生變數進行匯率與其他變數關係討論，另外使用GARCH討論新台幣匯率成長率之波動。<br />
 <br />
+
+<!--more-->
+
 蔡聰勇(<a href="http://nccur.lib.nccu.edu.tw/handle/140.119/35127" target="_blank">2006</a>)以ARCH模型分析日本央行干預日元兌美元匯率對新台幣匯率波動影響。何棟欽(<a href="http://www.cbc.gov.tw/public/Attachment/831818323571.pdf" target="_blank">2001</a>)則是建立誤差校正模型(ECM)，使用隔夜拆款利率、基本放款利率、存款利率與10年期中央公債次級市場利率，發現台灣央行的存放款利率調整無僵固性，短期利率傳遞至公債利率效果不佳，但長天期存款利率則較為理想。傅澤偉、黃國安、林曼莉(<a href="http://www.mnd.gov.tw/Upload/201412/06-3_%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%85%8C%E7%BE%8E%E5%85%83%E5%8C%AF%E7%8E%87%E4%B9%8B%E6%A8%A1%E5%BC%8F.pdf" target="_blank">2014</a>)比較僵固型價格貨幣理論模型、資產組合平衡模型與行為均衡匯率模型，認為僵固型價格貨幣理論模型為佳。</div>
 <br />
 不過這些分析匯率之模型多仍建構在<br />
