@@ -2,9 +2,9 @@
 mainmenu:
   home:
     url: "/"
-    text: "Home"
+    text: "首頁"
     icon_class: "fa-home"
   aboutme:
     url: "/about/"
-    text: "About Me"
+    text: "關於我"
     icon_class: "fa-info-circle"
