@@ -11,6 +11,8 @@ published: true
 
 於是，在高等計量經濟學當中，逐漸地只寫出iid的符號，至於Normal假設則是慢慢消失。但，我們反思，即使沒有寫出Normal符號，是否估計係數的分配就能夠得到，或許讀者可以問問你的老師 (笑)。<br />
 
+<!--more-->
+
 有趣的是，同樣的狀況發生在線性模式改為二次式或三次式，即使教科書上寫出來高階次方數的函數，我們卻沒有見過有人跑出結果來 (笑)。這是否表示那是所有撰寫者與理論家的最終極目標呢？我們不可而知.......<br />
 
 此時，為了能夠讓資料符合線性模式，資料使用者只能做一件事情，那就是 - <b><span style="background-color: yellow; color: red;">資料轉換</span></b>，也就是定態(<a href="http://nccur.lib.nccu.edu.tw/bitstream/140.119/36864/7/101407.pdf" target="_blank">Stationary</a>)。<br />
