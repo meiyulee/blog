@@ -1,8 +1,8 @@
 ---
 layout: post
 tags: Curvilinear
-date: 2016-09-30 19:18
-thumbnail: http://cdn1.thedataschool.co.uk/wp-content/uploads/2016/02/20161846/timeseries.png
+date: 2016-02-21 19:18
+thumbnail: http://art.nmu.edu/groups/cognates/wiki/244d1/images/8d922.jpg
 title: 為何使用曲線化線性模型
 published: true
 ---
