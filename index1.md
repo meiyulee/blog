@@ -6,6 +6,10 @@
 
 ```markdown
 
+- 李玫郁、孔秀琴、呂英睿，2020，「運用大數據分析方法估計失業人數與失業率」，台灣銀行季刊，即將刊登。
+- 李玫郁，2018，「大數據分析方法現況與可行之道 」，台灣銀行季刊，第69卷第3期，第205頁。
+- 鄭貴元、李堯賢、李玫郁，2017，「對外貿易和中國崛起對台灣實質薪資型菲利浦曲線之影響分析」，育達科大學報，第45期，第1-14頁。
+- Yao-Hsien Lee, Yi-Hsien Wang and **Mei-Yu Lee**, 2017，Big data analysis of foreign exchange rates among Japan, South Korea and Taiwan , International Journal of Computational Economics and Econometrics, 7(4), 399-410.(corrosponding author)
 - 邱登裕、端木和奕、謝素真、**李玫郁**，2016，以多重彈性倒傳遞類神經模型探討台灣4G概念股股價的變動，會計與財金研究。(通訊作者)
 - Kuei-Yuan Cheng, Yao-Hsien Lee and **Mei-Yu Lee**, 2016, [Price Competition between Shrink-wrap Software and Cloud Service Firms under a Stochastic Model](http://businessperspectives.org/component/option,com_journals/task,issue/id,356/jid,3/Itemid,74/), Problems and Perspectives in Management, 14(2), 272-276. (通訊作者)(**EconLit**, IF = 0.765)
 - **李玫郁**、李堯賢、林哲揚，2016，[國際油價與中油油品價格之大數據特徵分析](http://www.bot.com.tw/Publications/Quarterly/Documents/67_2.pdf)，台灣銀行季刊，67(2)，53-78. (通訊作者)
